@@ -11,7 +11,7 @@ const pyramid = (nbBase, reverse, char) => {
       str += '\n'
     }
   }
-  return str
+  return str.slice(0, -1)
 }
 
-console.log(pyramid(8, false, '†'))
+console.log(pyramid(8, true, '†'))
