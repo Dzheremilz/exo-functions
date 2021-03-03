@@ -5,11 +5,7 @@ const reverseStr = (str) => {
 const isPalindrome = (str) => {
   str = str.toUpperCase()
   let temp = reverseStr(str)
-  if (str === temp) {
-    return true
-  } else {
-    return false
-  }
+  return str === temp ? true : false
 }
 
 console.log(reverseStr('Hello!'))
