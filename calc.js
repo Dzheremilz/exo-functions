@@ -25,6 +25,8 @@ const calc = (operator, nb1, nb2) => {
     case '*': return mul(nb1, nb2)
     case '/': return div(nb1, nb2)
     case '**': return power(nb1, nb2)
+    default:
+      return 'Not an operator'
   }
 }
 
@@ -42,4 +44,4 @@ const calc = (operator, nb1, nb2) => {
 }
 */
 
-console.log(calc('**', 10, 2))
+console.log(calc('a', 10, 2))
