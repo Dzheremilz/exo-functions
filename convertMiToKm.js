@@ -1,5 +1,7 @@
+const RATIO = 1.60934
+
 const convertMiToKm = (nb) => {
-  return nb * 1.60934
+  return nb * RATIO
 }
 
 console.log(convertMiToKm(10))
